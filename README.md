@@ -51,3 +51,4 @@ this UI up to a real backend (via Axios, per the SRS) is the next step.
 Also not yet done: pixel-tuned 390×844 mobile layouts (current screens are responsive via Tailwind
 breakpoints but not hand-tuned per the exact mobile mockup spec) and a Student Timeline view.
 # ASTUMSJ-Bootcamp-Management-System-UI
+# ASTUMSJ-Bootcamp-Management-System-UI
