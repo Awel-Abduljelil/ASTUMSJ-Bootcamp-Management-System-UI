@@ -1,7 +1,7 @@
 import { GraduationCap, Code2, ShieldCheck, Rocket } from 'lucide-react'
 import Button from '../components/ui/Button'
 import { TextInput, PasswordInput } from '../components/ui/Input'
-
+import { Link } from 'react-router-dom'
 export default function Login() {
   return (
     <div className="flex min-h-screen">
@@ -56,9 +56,9 @@ export default function Login() {
                 <input type="checkbox" className="h-4 w-4 rounded border-border text-brand focus:ring-brand" />
                 Remember me
               </label>
-              <a href="#" className="font-medium text-brand hover:text-brand-hover">
-                Forgot password?
-              </a>
+              <Link to="/forgot-password" className="font-medium text-brand hover:text-brand-hover" >
+                    Forgot password?
+              </Link>
             </div>
 
             <Button type="submit" className="w-full" size="lg">
@@ -68,9 +68,9 @@ export default function Login() {
 
           <p className="mt-6 text-center text-small text-text-secondary dark:text-dark-text-secondary">
             Don't have an account?{' '}
-            <a href="#" className="font-medium text-brand hover:text-brand-hover">
+           <Link to="/register" className="font-medium text-brand hover:text-brand-hover">
               Register
-            </a>
+            </Link>
           </p>
         </div>
       </div>
